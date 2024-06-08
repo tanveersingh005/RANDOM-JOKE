@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://webgradients.com/public/webgradients_png/084%20Phoenix%20Start.png);
+}
+
+.container{
+    width: 600px;
+    height: 450px;
+    background-color: aliceblue;
+    position: relative;
+    left: 450px;
+    top: 130px;
+    border: transparent;
+    border-radius:2rem ;
+    transition-timing-function:ease-in;
+    transition-duration:0.6s;
+    box-shadow: 20px 20px 40px orangered;   
+    cursor: pointer;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+h2{
+    position: relative;
+     /* display: inline; */
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    top: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 1em;
+    font-size: xxx-large;
+    font-weight:lighter;
+    letter-spacing: 0.1em;
+}
+
+button{
+    position:relative;
+    top: 180px;
+    left: 110px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: 0;
+    background-color: orangered;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px red;
+    cursor: pointer; 
+    transition-duration: 1.6s; 
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);  
+}
+
+button:hover{
+    transform:scale(1.2);
+}
+
+.joke{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+/* .emoji{
+    position: relative;
+    left: 200px;
+    top: 0px;
+} */
